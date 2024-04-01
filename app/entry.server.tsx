@@ -4,8 +4,7 @@ import { RemixServer } from '@remix-run/react';
 import type { EntryContext } from '@remix-run/node';
 import createEmotionCache from './src/createEmotionCache';
 import theme from './src/theme';
-import CssBaseline from '@mui/material/CssBaseline';
-import { ThemeProvider } from '@mui/material/styles';
+import { CssBaseline, ThemeProvider } from '@mui/material';
 import { CacheProvider } from '@emotion/react';
 import createEmotionServer from '@emotion/server/create-instance';
 

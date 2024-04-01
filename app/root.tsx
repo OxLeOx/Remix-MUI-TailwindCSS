@@ -1,7 +1,6 @@
 import * as React from 'react';
 import {
   Links,
-  LiveReload,
   Meta,
   Outlet,
   Scripts,
@@ -60,7 +59,6 @@ const Document = withEmotionCache(({ children, title }: DocumentProps, emotionCa
         {children}
         <ScrollRestoration />
         <Scripts />
-        <LiveReload />
       </body>
     </html>
   );

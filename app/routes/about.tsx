@@ -1,7 +1,6 @@
-import * as React from 'react';
-import { Link } from '@remix-run/react';
-import Typography from '@mui/material/Typography';
-import Button from '@mui/material/Button';
+import * as React from "react";
+import { Link } from "@remix-run/react";
+import { Button, Typography } from "@mui/material";
 
 export default function About() {
   return (
