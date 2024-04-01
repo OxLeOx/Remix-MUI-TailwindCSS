@@ -19,6 +19,7 @@ export default function Index() {
       <Link to="/about" color="secondary" component={RemixLink}>
         Go to the about page
       </Link>
+      <h1 className="text-1xl font-bold underline">Hello world!</h1>
     </React.Fragment>
   );
 }

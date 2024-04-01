@@ -14,6 +14,8 @@ import theme from './src/theme';
 import ClientStyleContext from './src/ClientStyleContext';
 import Layout from './src/Layout';
 
+import "./tailwind.css";
+
 interface DocumentProps {
   children: React.ReactNode;
   title?: string;

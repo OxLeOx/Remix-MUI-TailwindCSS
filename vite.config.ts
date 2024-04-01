@@ -7,9 +7,7 @@ installGlobals();
 
 export default defineConfig({
   plugins: [
-    remix({
-      ignoredRouteFiles: ["**/*.css"],
-    }),
+    remix(),
     tsconfigPaths(),
   ],
 });
