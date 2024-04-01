@@ -5,7 +5,7 @@ import { Link, Typography } from "@mui/material";
 
 // https://remix.run/docs/en/main/route/meta
 export const meta: MetaFunction = () => [
-  { title: "Remix Starter" },
+  { title: "Remix + TypeScript + MUI + TailwindCSS Starter" },
   { name: "description", content: "Welcome to remix!" },
 ];
 
